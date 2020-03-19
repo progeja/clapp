@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="true"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false"
+         syntaxCheck="false"
+         testdox="true"
+         bootstrap="vendor/autoload.php"
+>
+    <testsuites>
+        <testsuite name="Krapp Testing">
+            <directory>./tests/</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>./src/krapp/</directory>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="testdox-html" target="./testdox.html"/>
+    </logging>
+</phpunit>
