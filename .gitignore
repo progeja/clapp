@@ -102,7 +102,7 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 # Lisakirjed
-bin/*.phar
+dist/*.phar
 testdox.*
 __*.json
 *.cache

@@ -1,6 +1,7 @@
 {
     "directories": [
-        "src"
+        "src",
+        "config"
     ],
     "files": [
         "LICENSE"
