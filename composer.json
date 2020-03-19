@@ -1,7 +1,7 @@
 {
     "name": "progeja/clapp",
-    "description": "App templiit",
-    "type": "library",
+    "description": "Symfony Console PHAR-ready application minimal template.",
+    "type": "project",
     "require": {
         "php": "^7.3",
         "symfony/console": "^5.0",
